@@ -75,7 +75,7 @@
             <div id="optsHelp" class='optBtn'></div>
           </div>
           <div id="ballShop" class='shop'>
-            <p>Tip: Upgrading balls not only increases their value, but also the frequency in which they spawn.</p>
+            <p>Tip: Upgrading balls not only increases value, but also spawn frequency.</p>
             <div class="ballUpgrade" value='0'>
               <div class="ballIcon"></div>
               Value: <span id='ball0Value'></span><br>Cooldown: <span id='ball0Cooldown'></span><br>Cost: <span id='ball0Cost' style="color:black"></span>
@@ -138,7 +138,7 @@
             <div id='ball9Level' class='ballLevel' style="right:37px; top:485px"></div>
           </div>
           <div id="zoneShop" class='shop' style="display:none;">
-            <p>Tip: Upgrading zones not only increases ball payouts that make it to the end of that zone, but also has another benifit unique to each zone.</p>
+            <p>Upgrading zones increases ball payouts at the end of that zone, and gives another benefit unique to each zone.</p>
             <div class="zoneUpgrade" value='0'>
               <div class="zoneEffect" id='zone0Effect'></div>
               <div class="zoneCost">Cost: <span id='zone0cost' style="color:black"></span></div>
@@ -197,7 +197,7 @@
             <div id='zone7Level' class='zoneLevel' style="right:38px; top:514px"></div>
           </div>
           <div id="tokenShop" class='shop' style="display:none;">
-            <p>Tip: Starting from the beginning sounds like a lot of work, but it's worth it in the long run.</p>
+            <p>Starting again from the beginning sounds like a lot of work, but is worth it in the long run.</p>
             <div id='tokenHolder' style="margin-bottom: 49px;">
               <div id='prestigeToken'>123</div><div id='prestige'>Prestige</div>
               
@@ -252,24 +252,21 @@
             <div id='token7Level' class='tokenLevel' style="right:37px; top:485px"></div>
           </div>
           <div id="helpShop" class='shop' style="display:none; text-align: left;">
-            <p style="font-style: inherit;">Earn 125% the value of a ball by clicking it before it hits the bottom of the zone. <br/> <br/>
+            <h3 style='text-align: center; margin-top: -10px; margin-bottom: 4px;'>Game info</h3>
+            <p style="font-style: inherit;">Earn 125% the value of a ball by clicking it before it exits the zone. <br/> <br/>
             If the ball makes it to the bottom of the zone, it will earn its value modified by the zone's modifier.<br/> <br/>
-            There is a chance the ball will survive and make it into the next zone, where it can earn there as well.</p>
+            There is a 30% chance the ball survives and enters the next zone.</p>
             <h3 style='text-align: center; margin-top: -10px; margin-bottom: 4px;'>Number Notation</h3>
             <div id="numOpts" style='text-align: center;'>
               <div class="numOpt selected" value="eng">Engineering</div>
               <div class="numOpt" value="sci">Scientific</div>
               <div class="numOpt" value="bad">Traditional</div>
             </div>
-            <h3 style='text-align: center; margin-top: 10px; margin-bottom: 4px;'>Game State</h3>
+            <h3 style='text-align: center; margin-top: 10px; margin-bottom: 4px;'>Save / Reset</h3>
             <div id="saveOpts" style='text-align: center;'>
               <div id="saveGame" class="saveOpt" value="eng">Save Game</div>
               <div id="resetGame" class="saveOpt" value="eng">Hard Reset</div>
-            </div>
-            <a href='https://www.patreon.com/nightscapes' target="_blank"  id="patreon"></a>
-            <a href='https://discord.gg/k3kn93J7w4' target="_blank"  id="discord"></a>
-          </div>
-        </div>
+                </div>
       </div>
     </div>
     <script>
